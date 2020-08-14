@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /*
  * 所有的C语言程序都需要包含main方法，代码从main方法开始执行
  * printf()函数用于将内容输出到屏幕，printf()函数在stdio.h头文件中声明
@@ -42,8 +40,28 @@
  * 5. 注释
  */
 
-//第一个main函数,hello world
-int main() {
+
+#include <stdio.h>
+
+
+//fixme 第一个main函数,hello world
+/*int main() {
     printf("Hello, World!\n");
     return 0;
+}*/
+
+//fixme 第二个main函数，数据类型
+void num_type_test(void);
+
+void format_test(void);
+
+void format_test2(void);
+
+int main(void) {
+    //num_type_test();
+    //format_test();
+    format_test2();
+    return 0;
 }
+
+

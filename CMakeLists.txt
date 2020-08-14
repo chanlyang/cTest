@@ -3,4 +3,4 @@ project(cTest C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(cTest main.c)
+add_executable(cTest main.c number_type.c)
