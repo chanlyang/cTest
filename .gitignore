@@ -20,3 +20,5 @@
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
+*.xml
+*.iml
