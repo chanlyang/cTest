@@ -51,6 +51,7 @@
 }*/
 
 //fixme 第二个main函数，数据类型
+/*
 void num_type_test(void);
 
 void format_test(void);
@@ -61,6 +62,24 @@ int main(void) {
     //num_type_test();
     //format_test();
     format_test2();
+    return 0;
+}
+*/
+
+//fixme 第三个main函数, 变量
+
+void resutlFunctinForVariable();
+
+int x = 1;
+int y = 2;
+
+int addTowNum2();
+
+int main() {
+    //resutlFunctinForVariable();
+    int result;
+    result = addTowNum2();
+    printf("result = %d", result);
     return 0;
 }
 
