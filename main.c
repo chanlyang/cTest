@@ -67,11 +67,12 @@ int main(void) {
 */
 
 //fixme 第三个main函数, 变量
-
-void resutlFunctinForVariable();
-
 int x = 1;
 int y = 2;
+/*
+void resutlFunctinForVariable();
+
+
 
 int addTowNum2();
 
@@ -82,5 +83,14 @@ int main() {
     printf("result = %d", result);
     return 0;
 }
+*/
 
+void constant_test1();
+void constant_test2();
+
+int main(){
+    constant_test1();
+    constant_test2();
+    return 0;
+}
 
