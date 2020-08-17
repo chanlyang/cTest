@@ -85,12 +85,41 @@ int main() {
 }
 */
 
-void constant_test1();
-void constant_test2();
+//fixme 第四个main函数，常量
+/*extern void constant_test1();
+extern void constant_test2();
 
 int main(){
     constant_test1();
     constant_test2();
     return 0;
-}
+}*/
 
+//fixme 第五个main函数，c存储类（访问修饰符）
+
+/*
+extern void accessMosiferTestForStatic();
+
+void main(){
+    accessMosiferTestForStatic();
+}
+*/
+
+//fixme 第六个main函数，数组
+
+/*
+int main_test();
+
+void main(){
+    main_test();
+}
+*/
+
+//fixme 第七个main函数, 枚举
+
+int enum_test2();
+
+int main() {
+    enum_test2();
+    return 0;
+}
